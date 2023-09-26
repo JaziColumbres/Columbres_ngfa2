@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: cute;
+    src: url(fonts/Cute_Aurora_demo.ttf);
+}
+
+.navbar{
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid rgb(196, 166, 166);
+    background-color: rgb(255, 245, 245);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#links{
+    display: inline;
+}
+
+#links a{
+    color: rgb(168, 134, 140);
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid rgb(196, 166, 166);
+    background-color: rgb(252, 221, 227);
+    font-family: cute;
+    opacity: .55;
+    transition: .4s;
+}
+
+#links a:hover{opacity: 1; transition: .4s;}
+
+.banner{
+    background-image: url(images/header2.jpg);
+    height: 200px;
+    position: relative;
+}
+.banner a{
+   position: absolute; 
+   padding: 8px;
+   color: rgb(168, 134, 140);
+   background-color: rgb(252, 242, 242);
+   right: 48%;
+   bottom: 50%;
+   border: 1px solid rgb(155, 124, 124);
+   border-radius: 10px;
+   font-family: cute;
+}
